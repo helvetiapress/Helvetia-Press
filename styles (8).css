@@ -1,0 +1,26 @@
+.header {
+  display: flex;          /* activa Flexbox */
+  justify-content: flex-start; /* todo hacia la izquierda */
+  align-items: center;    /* centra verticalmente la imagen y el texto */
+  gap: 8px;               /* separa un poco la imagen del texto */
+}
+
+.title {
+  font-family: 'Georgia', Serif;
+  margin: 0;              /* elimina margen por defecto del h1 */
+}
+
+.separator {
+  height: 1px;
+  width: 90vw;
+  margin: 10px auto;
+  background: linear-gradient(to right, transparent, black, transparent);
+}
+
+.undconst {
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+  margin: 0;
+}
+
+
